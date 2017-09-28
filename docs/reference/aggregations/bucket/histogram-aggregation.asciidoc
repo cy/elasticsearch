@@ -14,7 +14,7 @@ To make this more formal, here is the rounding function that is used:
 bucket_key = Math.floor((value - offset) / interval) * interval + offset
 --------------------------------------------------
 
-The `interval` must be a positive decimal, while the `offset` must be a decimal in `[0, interval[`.
+The `interval` must be a positive decimal, while the `offset` must be a decimal in `[0, interval]`.
 
 The following snippet "buckets" the products based on their `price` by interval of `50`:
 
